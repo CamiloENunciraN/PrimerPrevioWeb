@@ -11,7 +11,7 @@ margin:0px;
 
 .panel{
 justify-content: center;
-  align-items;center;
+  align-items:center;
   
 }
 
@@ -29,4 +29,29 @@ justify-content: center;
   width: 215px;
   height: 32px;
   color:white;
+  border-bottom-left-radius: 20px;
+}
+
+.contenedor2{
+width:100%;
+  
+}
+
+.datos{
+
+  width:75%;
+}
+
+.promedio{
+  width:25%;
+  display:flex;
+
+  
+}
+
+
+.tablaP{
+  justify-content: center;
+  align-items: center;
+  
 }
