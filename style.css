@@ -1,3 +1,32 @@
-.wow {
-  width: 100px;
+*{
+margin:0px;
+  padding:0px;
+  
+}
+
+
+.contenedor{
+  display:flex;
+}
+
+.panel{
+justify-content: center;
+  align-items;center;
+  
+}
+
+.panel a{
+  font-size:14px;
+}
+
+.panel input{
+  width: 16px;
+}
+
+.panel button{
+  background-color:#D31024
+ font-size:16px;
+  width: 215px;
+  height: 32px;
+  color:white;
 }
