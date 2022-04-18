@@ -1,5 +1,7 @@
 
-
+if (document.getElementById("codigo")!=null) {
+  window.location.href="dashboard.html";
+}
 
 document.getElementById("ingresar").onclick=function(){
 
