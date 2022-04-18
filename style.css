@@ -50,25 +50,55 @@ margin:0px;
 }
 
 .contenedor2{
-width:100%;
-
+  width:100%;
+  display: flex;
 }
 
 .datos{
-
+  background-color: rgb(184, 181, 184);
   width:75%;
+  margin: 30px;
+
 }
+
+.datos a{
+  margin: 15px;
+}
+
+
 
 .promedio{
   width:25%;
   display:flex;
 
-
+  justify-content: center;
+  align-items: center;
 }
 
 
 .tablaP{
+  border: 1px solid black;
+  border-bottom-left-radius: 20px;
+  text-align: center;
+}
+.tablaP th{
+  border: 1px solid black;
+  background-color: rgb(201, 199, 199);
+}
+
+
+.notas{
+  display:flex;
   justify-content: center;
   align-items: center;
+}
 
+.notas_tabla table{
+  border: 1px solid black;
+  background-color: rgb(201, 199, 199);
+}
+
+.notas_tabla th{
+  border: 1px solid black;
+  background-color: rgb(201, 199, 199);
 }
